@@ -1,0 +1,24 @@
+{
+  "medicion" : [ {
+    "calidad" : "mala",
+    "humedad" : "75%",
+    "locacion" : "El Agustino",
+    "temperatura" : 22,
+    "transito" : "59%",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/iot-angular.appspot.com/o/ate.jpg?alt=media&token=c145c88f-d339-47af-ba73-a02f5e6b1fff"
+  }, {
+    "calidad" : "media",
+    "humedad" : "78%",
+    "locacion" : "Vitarte",
+    "temperatura" : 19,
+    "transito" : "80%",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/iot-angular.appspot.com/o/bayobar.jpg?alt=media&token=f3165117-fa52-415f-89ef-a1fda7956574"
+  }, {
+    "calidad" : "buena",
+    "humedad" : "89%",
+    "locacion" : "Atocongo",
+    "temperatura" : 22,
+    "transito" : "56%",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/iot-angular.appspot.com/o/puente-nuevo.jpg?alt=media&token=6dcce05f-36dd-4fee-8be8-09d82347b120"
+  } ]
+}
