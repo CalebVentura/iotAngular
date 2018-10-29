@@ -1,2 +1,23 @@
 <h3 class="my-4 text-center">MEDICIONES</h3>
-<p class=" px-5 text-center"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, recusandae et, sit, ab nihil expedita cum dicta quo quas quisquam obcaecati fuga numquam! Ipsam alias minus quo autem repellendus? Facere.</p>
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Lugar</th>
+        <th scope="col">Aire</th>
+        <th scope="col">Temperatura</th>
+        <th scope="col">Humedad</th>
+        <th scope="col">Transito</th>
+        <th scope="col">Imagen</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let lugar of infomedicion.medidas">
+        <th scope="row">{{lugar.locacion}}</th>
+        <td>{{lugar.calidad}}</td>
+        <td>{{lugar.temperatura}}</td>
+        <td>{{lugar.humedad}}</td>
+        <td>{{lugar.transito}}</td>
+        <td><img [src]="lugar.url" alt="" width="90px"></td>
+      </tr>
+    </tbody>
+  </table>
