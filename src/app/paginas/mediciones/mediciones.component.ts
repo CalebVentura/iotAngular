@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { InfoPaginaService } from '../../services/info-pagina.service';
+import { ModulosService } from 'src/app/services/modulos.service';
 
 @Component({
   selector: 'app-mediciones',
@@ -8,7 +9,7 @@ import { InfoPaginaService } from '../../services/info-pagina.service';
 })
 export class MedicionesComponent implements OnInit {
 
-  constructor(public infomedicion:InfoPaginaService) { }
+  constructor(public infomedicion:InfoPaginaService, public modulosService: ModulosService) { }
 
   ngOnInit() {
   }

@@ -38,7 +38,7 @@ export class InfoPaginaService {
     this.http.get('https://iot-angular.firebaseio.com/medicion.json')
         .subscribe((resp: any[]) => {
             this.medidas = resp;
-            console.log(resp);
+            //console.log(resp);
           });
   }
 }

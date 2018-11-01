@@ -7,7 +7,7 @@ import { Modulo } from '../interfaces/modulos.interface';
 })
 export class ModulosService {
 
-  cargando = true;
+  cargando = true; // para el loaging
   modulos : Modulo[]=[];
 
 //si voy a hacer uso de http escribo lo siguiente
@@ -20,6 +20,7 @@ export class ModulosService {
         .subscribe( (resp : Modulo[])=>{
           // : para asignar el tipo de variable que es
           // = para asignar un valor a la variable
+          this.modulos=resp;
           console.log(resp);
           this.cargando = false;
         });
