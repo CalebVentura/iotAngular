@@ -21,8 +21,12 @@ export class ModulosService {
           // : para asignar el tipo de variable que es
           // = para asignar un valor a la variable
           this.modulos=resp;
-          console.log(resp);
           this.cargando = false;
         });
+  }
+
+  getModulo(id: string){
+    return this.http.get(`https://iot-angular.firebaseio.com/productos/${id}.json`);
+
   }
 }

@@ -12,6 +12,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { HomeComponent } from './paginas/home/home.component';
 import { AboutComponent } from './paginas/about/about.component';
 import { MedicionesComponent } from './paginas/mediciones/mediciones.component';
+import { ItemComponent } from './paginas/item/item.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MedicionesComponent } from './paginas/mediciones/mediciones.component';
     FooterComponent,
     HomeComponent,
     AboutComponent,
-    MedicionesComponent
+    MedicionesComponent,
+    ItemComponent
     
   ],
   imports: [
