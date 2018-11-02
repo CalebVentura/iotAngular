@@ -1,0 +1,15 @@
+{
+    "abrev": "CaliAir",
+    "titulo": "Medición de la calidad de aire usando Internet of Things",
+    "email": "comsoc-uni@gmail.com",
+    "grupo": "Iot ComSoc UNI",
+    "pagina_autor" : "Caleb Ventura",
+    "facebook": "https://www.facebook.com/comsocuni/",
+    "uni": "Universidad Nacional de Ingenieria",
+    "equipo": ["Alexis", "Cristina", "Caleb", "Ruben", "Bill", "Hancco", "Martin"],
+    "IoT": "Internet of Things",
+    "web": "https://comsoc-fiee.tk/",
+    "version" : "0.0.2",
+    "anio": 2018
+
+}
